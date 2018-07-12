@@ -13,8 +13,5 @@ ERVs lack infectious capacity due to accumulated nonsense mutations,indels of in
 
 
 
-# RetroCancer Workflow
-![Logo](workflow1.png)
 
-![Logo](retrologo.tif)
 
