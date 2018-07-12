@@ -10,16 +10,11 @@ ERVs lack infectious capacity due to accumulated nonsense mutations,indels of in
 
 # What is retrocancer going to do ?
 
-=======
-Precision Cancer-Therapy based on HERV expression profiles
+Retrocancer is an open-source software tool for the characterization of HERV expression in cancer.It enables to find HERV expression profiling for a patient of interest. This aids in understanding of HERV associated tumorigenic mechanism and identiifying potential targets for novel immunotherapeutic treatment strategies based on manipulating immune response against the HERV antigens that are selectively expressed in tumor cells. It also evaluates HERV threshold to classify samples. This threshold based classification based on the HERV profiling helps in understanding whether a specific HERV expression profile improves response to the currently available immunotherapy treatment, enabling novel companion diagnostic strategies for target population selection.
 
-# What is RetroCancer?
-The human genome has about 8% Human Endogenous Retroviruses (HERVs) located within it. There have been reports of Human Endogenous Retroviral involvement in certain diseases. In this study, we are analyzing cancer datasets in order to investigate HERVs response to cancer. We therefore seek to measure Human Endogenous Retrovirus Response to Cancer. RetroCancer allows the user to profile HERV expression in cancer datasets. In this study, we are analyzing Melanoma and Acute Myeloid Leukemia (AML) datasets from public databases.
+Retrocancer workflow is shown below:
 
-We are developing RetroCancer with the goal of quantifying HERV expression in Melanoma and AML patients, and also classifying these patients based on HERV expression profile and potential response to immunotherapy.
-
-# RetroCancer Workflow
 ![Logo](workflow1.png)
 
-![Logo](retrologo.tif)
 
+How to use Retrocancer ?
