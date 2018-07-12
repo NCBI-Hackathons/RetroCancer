@@ -1,9 +1,63 @@
 #/bin/bash
 
-set -x # for debuging
+display_help () {
 
-# FIXME: MAKE cancer type dynamic
-Cancer_Type="AML"
+cat << EOF
+Usage: ./scripts/sra_blast.sh -c cancertype [OPTIONS] [FILE]...
+Takes a cancer Type and blasts against a reference HERV database
+
+Mandatory arguments to long options are mandatory for short options too.
+
+  -c, --cancertype  type of cancer to look for in SRA (Mandatory arg)
+  -h, --help        give this help
+  -v, --verbose     verbose mode
+
+Report bugs to <olaitan>.
+EOF
+
+}
+
+while :
+do
+    case "$1" in
+      -c | --cancertype)
+          Cancer_Type="$2"
+          shift 2
+          ;;
+      -h | --help)
+          display_help
+          # no shifting needed here, we're done.
+          exit 0
+          ;;
+      -v | --verbose)
+          verbose="verbose"
+          shift
+          ;;
+      --) # End of all options
+          shift
+          break
+          ;;
+      -*)
+          echo "Error: Unknown option: $1" >&2
+          exit 1
+          ;;
+      *)  # No more options
+          break
+          ;;
+    esac
+done
+
+if [ -n "$verbose" ]
+  then
+    set -x
+fi
+
+if [ -z "$Cancer_Type" ]
+  then
+    echo "No cancer type supplied"
+  exit 1
+fi
+
 Species_Type="Homo sapiens"
 
 DATADIR="data"
@@ -57,6 +111,6 @@ for run_id in "${run_ids_array[@]}"
 do
    echo "$run_id"
    magicblast -sra "${run_id}"  -db "${HERV_OUTPUT_DB}" -no_discordant \
-	   -num_threads 4 -no_unaligned -out "${RESULTS_DIR}/${run_id}_res.sam" 
+           -num_threads 4 -no_unaligned -out "${RESULTS_DIR}/${run_id}_res.sam" 
 done
 
