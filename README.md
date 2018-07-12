@@ -7,4 +7,7 @@ The human genome has about 8% Human Endogenous Retroviruses (HERVs) located with
 
 We are developing RetroCancer with the goal of quantifying HERV expression in Melanoma and AML patients, and also classifying these patients based on HERV expression profile and potential response to immunotherapy.
 
+# RetroCancer Workflow
+![Logo](workflow1.png)
+
 ![Logo](retrologo.tif)
