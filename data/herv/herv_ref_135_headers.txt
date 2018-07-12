@@ -1,0 +1,135 @@
+>AF074086.2 Homo sapiens tandemly repeated human endogenous retrovirus HERV-K (HML-2.HOM), complete sequence
+>AF480924.1 Homo sapiens rabbit endogenous retrovirus H, complete sequence
+>EU853143.1 Homo sapiens endogenous virus endogenous retrovirus HSV2 envelope glycoprotein (env) gene, complete cds
+>EU853142.1 Homo sapiens endogenous virus endogenous retrovirus HSV1 envelope glycoprotein (env) gene, complete cds
+>AF079797.1 Homo sapiens human endogenous retrovirus HML6 gag, pol, and env pseudogenes, complete sequence
+>AF290421.1 Homo sapiens endogenous retrovirus HERV15-like, AHCP pseudogene and endogenous retrovirus HERVK14-like, complete sequence
+>AF216972.1 Homo sapiens human endogenous retrovirus HRES-1 p8 protein (p8) and p15 protein (p15) genes, complete cds
+>AF156963.1 Homo sapiens human endogenous retrovirus W envC7-1 envelope protein (env) gene, complete cds
+>AF156961.1 Homo sapiens human endogenous retrovirus W gagC3.37 G gag (gag) gene, complete cds
+>AF164615.1 Homo sapiens endogenous retrovirus HERV-K109, complete sequence
+>AF164614.1 Homo sapiens endogenous retrovirus HERV-K108, complete sequence
+>AF164613.1 Homo sapiens endogenous retrovirus HERV-K107 long terminal repeat, complete sequence; Gag-Pro-Pol protein (gag-pro-pol) gene, complete cds
+>AF164612.1 Homo sapiens endogenous retrovirus HERV-K104 long terminal repeat, complete sequence; and Gag protein (gag) and envelope protein (env) genes, complete cds
+>AF164611.1 Homo sapiens endogenous retrovirus HERV-K103, complete sequence
+>AF164610.1 Homo sapiens endogenous retrovirus HERV-K102, complete sequence
+>AF164609.1 Homo sapiens endogenous retrovirus HERV-K101, complete sequence
+>AF134984.1 Homo sapiens IDDMK(1,2)22- and HERV-K18-related human endogenous retrovirus envelope protein gene, complete cds.; and 3'-long terminal repeat, complete sequence
+>AF069508.1 Homo sapiens human endogenous retrovirus HML6.28 gag and pol pseudogenes, complete sequence
+>AY101585.1 Homo sapiens isolate 79 endogenous retrovirus HERV-W, ERVWE1 locus, allele B, complete sequence
+>AY101584.1 Homo sapiens isolate 79 endogenous retrovirus HERV-W, ERVWE1 locus, allele A, complete sequence
+>AY101583.1 Homo sapiens isolate 21 endogenous retrovirus HERV-W, ERVWE1 locus, allele B, complete sequence
+>AY101582.1 Homo sapiens isolate 21 endogenous retrovirus HERV-W, ERVWE1 locus, allele A, complete sequence
+>U07856.1 Human endogenous retrovirus in complement C4A gene, A3 allele, HERV-K(C4) (gag), (pol), reverse transcriptase, integrase and (env) genes, complete cds
+>AF499232.1 Homo sapiens endogenous retrovirus HCML-ARV, complete sequence
+>DQ112152.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K50D, complete sequence
+>DQ112151.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K50F, complete sequence
+>DQ112148.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K50E, complete sequence
+>DQ112147.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K50B, complete sequence
+>DQ112146.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K50A, complete sequence
+>DQ112143.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K12, complete sequence
+>DQ112140.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K41, complete sequence
+>DQ112139.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K43, complete sequence
+>DQ112134.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-KOLD130352, complete sequence
+>DQ112132.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K77, complete sequence
+>DQ112131.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K7, complete sequence
+>DQ112127.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K50C, complete sequence
+>DQ112124.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K17B, complete sequence
+>DQ112123.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K17A, complete sequence
+>DQ112122.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-KOLD35587, complete sequence
+>DQ112121.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K76, complete sequence
+>DQ112120.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K6, complete sequence
+>DQ112119.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-KOLD345, complete sequence
+>DQ112118.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K27, complete sequence
+>DQ112117.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K29, complete sequence
+>DQ112116.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K63, complete sequence
+>DQ112115.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K31, complete sequence
+>DQ112114.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K18b, complete sequence
+>DQ112113.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K70, complete sequence
+>DQ112111.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K42, complete sequence
+>DQ112110.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K23, complete sequence
+>DQ112109.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K71, complete sequence
+>DQ112108.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K60, complete sequence
+>DQ112107.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K20, complete sequence
+>DQ112106.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K30, complete sequence
+>DQ112105.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K59, complete sequence
+>DQ112104.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K52, complete sequence
+>DQ112103.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K69, complete sequence
+>DQ112102.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-KOLD12309, complete sequence
+>DQ112101.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K36, complete sequence
+>DQ112100.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K33, complete sequence
+>DQ112099.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K11, complete sequence
+>DQ112098.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K51, complete sequence
+>DQ112097.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K4, complete sequence
+>DQ112096.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K68, complete sequence
+>DQ112095.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K37, complete sequence
+>DQ112094.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K8, complete sequence
+>DQ112093.1 Homo sapiens endogenous virus Human endogenous retrovirus K HERV-K5, complete sequence
+>AF205860.1 Homo sapiens mammalian transposon-like element long terminal repeat, partial sequence; and human endogenous retrovirus K long terminal repeat, complete sequence
+>AF290423.1 Homo sapiens endogenous retrovirus HERV15yq2, complete sequence
+>AF290422.1 Homo sapiens endogenous retrovirus HERV15yq1, complete sequence
+>JK974083.1 HERV-E_cDNA_clone_D8 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JK974082.1 HERV-E_cDNA_clone_D18 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JK974081.1 HERV-E_cDNA_clone_D17 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JK974080.1 HERV-E_cDNA_clone_D11 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JK974079.1 HERV-E_cDNA_clone_D15 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JK974078.1 HERV-E_cDNA_clone_7 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>LM994695.1 LM994695 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K79B, mRNA sequence
+>JK974075.1 HERVKHML6_cDNA_clone_F100 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JK974076.1 HERVKHML6_cDNA_clone_F36 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JK974077.1 HERVKHML6_cDNA_clone_F76 HERV cDNA Homo sapiens cDNA, mRNA sequence
+>JZ164912.1 HERVKHML2_cDNA_clone_Mel25_21 SK-Mel-25 cDNA Homo sapiens cDNA, mRNA sequence
+>JZ164911.1 HERVKHML2_cDNA_clone_RNA3_86 Melanoma 3 cDNA Homo sapiens cDNA, mRNA sequence
+>JZ164910.1 HERVKHML2_cDNA_clone_RNA3_13 Melanoma 3 cDNA Homo sapiens cDNA, mRNA sequence
+>JZ164909.1 HERVKHML2_cDNA_clone_MEWO_2 MeWo cDNA Homo sapiens cDNA, mRNA sequence
+>HG421067.1 HG421067 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EDPN7, mRNA sequence
+>AB047320.1 AB047320 Homo sapiens SiHa Homo sapiens cDNA clone SiHa-1 similar to HERV-K LTR, mRNA sequence
+>AB047319.1 AB047319 Homo sapiens MCF7 Homo sapiens cDNA clone MCF7-2 similar to HERV-K LTR, mRNA sequence
+>AB047318.1 AB047318 Homo sapiens MCF7 Homo sapiens cDNA clone MCF7-1 similar to HERV-K LTR, mRNA sequence
+>AB047317.1 AB047317 Homo sapiens HepG2 Homo sapiens cDNA clone HepG2-10 similar to HERV-K LTR, mRNA sequence
+>AB047316.1 AB047316 Homo sapiens HepG2 Homo sapiens cDNA clone HepG2-9 similar to HERV-K LTR, mRNA sequence
+>AB047315.1 AB047315 Homo sapiens HepG2 Homo sapiens cDNA clone HepG2-7 similar to HERV-K LTR, mRNA sequence
+>AB047314.1 AB047314 Homo sapiens HepG2 Homo sapiens cDNA clone HepG2-3 similar to HERV-K LTR, mRNA sequence
+>HG421036.1 HG421036 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EENT3, mRNA sequence
+>HG421037.1 HG421037 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EUVGX, mRNA sequence
+>HG421038.1 HG421038 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EVSKH, mRNA sequence
+>HG421039.1 HG421039 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04ENC06, mRNA sequence
+>HG421040.1 HG421040 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EWCUZ, mRNA sequence
+>HG421041.1 HG421041 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EIF9Y, mRNA sequence
+>HG421042.1 HG421042 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EKP6G, mRNA sequence
+>HG421043.1 HG421043 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EREZP, mRNA sequence
+>HG421044.1 HG421044 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04D98M8, mRNA sequence
+>HG421045.1 HG421045 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EW4KJ, mRNA sequence
+>HG421046.1 HG421046 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EOM6S, mRNA sequence
+>HG421047.1 HG421047 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EE33H, mRNA sequence
+>HG421048.1 HG421048 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EJ3SP, mRNA sequence
+>HG421049.1 HG421049 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04D9NGP, mRNA sequence
+>HG421050.1 HG421050 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EQDVD, mRNA sequence
+>HG421051.1 HG421051 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04D8B3G, mRNA sequence
+>HG421052.1 HG421052 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EKL1R, mRNA sequence
+>HG421053.1 HG421053 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EP13O, mRNA sequence
+>HG421054.1 HG421054 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EIZ1E, mRNA sequence
+>HG421055.1 HG421055 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04ET5ER, mRNA sequence
+>HG421056.1 HG421056 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EAME8, mRNA sequence
+>HG421057.1 HG421057 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EAFCY, mRNA sequence
+>HG421058.1 HG421058 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EDPH8, mRNA sequence
+>HG421059.1 HG421059 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EP6QM, mRNA sequence
+>HG421060.1 HG421060 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04ERK48, mRNA sequence
+>HG421061.1 HG421061 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04D2XL2, mRNA sequence
+>HG421062.1 HG421062 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EM2BI, mRNA sequence
+>HG421063.1 HG421063 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EHAH4, mRNA sequence
+>HG421064.1 HG421064 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EPWAG, mRNA sequence
+>HG421065.1 HG421065 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04D9EMV, mRNA sequence
+>HG421066.1 HG421066 Homo sapiens brain white matter Homo sapiens cDNA clone HERVW_cDNA_clone_G9LT1VA04EK21N, mRNA sequence
+>LM994684.1 LM994684 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K102B, mRNA sequence
+>LM994685.1 LM994685 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K22C, mRNA sequence
+>LM994686.1 LM994686 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K105B, mRNA sequence
+>LM994687.1 LM994687 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K26C, mRNA sequence
+>LM994688.1 LM994688 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K83B, mRNA sequence
+>LM994689.1 LM994689 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K104B, mRNA sequence
+>LM994690.1 LM994690 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K58B, mRNA sequence
+>LM994691.1 LM994691 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K103B, mRNA sequence
+>LM994692.1 LM994692 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K49B, mRNA sequence
+>LM994693.1 LM994693 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K18B, mRNA sequence
+>LM994694.1 LM994694 Homo sapiens LC5 cell line library Homo sapiens cDNA clone HERV-K(HML-3)_cDNA_clone_K114B, mRNA sequence
+>FI497678.1 Brady-HERV-293T-MseI-Dec2007-088471_3651_0907 HERV Integration Site Library Homo sapiens genomic, genomic survey sequence
