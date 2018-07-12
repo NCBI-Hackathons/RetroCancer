@@ -14,7 +14,7 @@ Retrocancer is an open-source software tool for the characterization of HERV exp
 
 Retrocancer workflow is shown below:
 
-![Logo](workflow1.png)
+![Logo](workflow.png)
 
 
 #How to use Retrocancer ?
