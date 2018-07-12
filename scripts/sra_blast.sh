@@ -6,9 +6,6 @@ set -x # for debuging
 Cancer_Type="AML"
 Species_Type="Homo sapiens"
 
-NUM_JOBS=50 # Number of total jobs to run
-NUM_PARALLEL_JOBS=4 # Number of jobs to run in parallel
-
 DATADIR="data"
 
 HERV_INPUT_DB="${DATADIR}/herv/herv_ref_135.fasta"
@@ -55,14 +52,11 @@ run_ids_array=(`cat "${RUN_ID_FILE}"`)
 # Create a parallel command file
 echo -n "" > "${PARALLEL_CMD_FILE}"
 
-# Output a magic blast command to the parallel command file
-# We have one command for each Run ID
+# We have one command for each Run ID and we run them sequentially
 for run_id in "${run_ids_array[@]}"
 do
    echo "$run_id"
-   echo "magicblast -sra ${run_id}  -db ${HERV_OUTPUT_DB} -no_discordant -num_threads 4 -no_unaligned -out ${RESULTS_DIR}/${run_id}_res.sam" >> "${PARALLEL_CMD_FILE}"
+   magicblast -sra "${run_id}"  -db "${HERV_OUTPUT_DB}" -no_discordant \
+	   -num_threads 4 -no_unaligned -out "${RESULTS_DIR}/${run_id}_res.sam" 
 done
 
-# Read the first NUM_JOBS from the command file and run them in parallel 
-# making sure that only NUM_PARALLEL_JOBS are run at a given time
-head -"${NUM_JOBS}" "${PARALLEL_CMD_FILE}" | parallel -j "${NUM_PARALLEL_JOBS}"
