@@ -3,7 +3,7 @@
 ![retrocancer](retrologo.png)
 
 
-#What are Human Endogenous Retroviruses (HERVs)?
+# What are Human Endogenous Retroviruses (HERVs)?
 About 8% of human genome is composed of human endogenous retroviruses (HERVs), which are remnants of ancient retroviruses that have infected human genome millions of years ago. 
 Most of HERVs are nonfunctional due to the acquisition of deactivating mutations, deletions, rearrangements during host evolution [Classification and characterization of human endogenous retroviruses; mosaic forms are common.(reference1) [Vargiu et al., Retrovirology. 2016 Jan 22; 13():7] as well as due to epigenetic control mechanisms(reference2) [The enemy within: endogenous retroelements and autoimmune disease. Volkman HE, Stetson DB Nat Immunol. 2014 May; 15(5):415-22].
 
@@ -24,6 +24,4 @@ RetroCancer Workflow Diagram:
 
 ![Logo](workflow.png)
 
-
-#How to use Retrocancer ?
 
