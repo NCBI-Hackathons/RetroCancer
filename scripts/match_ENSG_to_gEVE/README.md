@@ -50,3 +50,6 @@ BED files are tab delimited and have chromosome, start, end and
 identifier in the first four columns. Script make_bed.sh creates the
 BED files for the two annotation files.
 
+## Overlap of BED files
+
+
