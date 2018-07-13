@@ -11,6 +11,7 @@ Mandatory arguments to long options are mandatory for short options too.
   -c, --cancertype  type of cancer to look for in SRA (Mandatory arg)
   -g, --greppattern pattern to grep for after metadata is downloaded
 		    (default is to grep for cancer type)
+  -d, --datadir     Data directory to read from
   -f, --hervdb      Fasta file to use for HERV database
   -h, --help        give this help
   -v, --verbose     verbose mode
@@ -35,6 +36,9 @@ do
           HERV_INPUT_DB="$2"
           shift 2
           ;;
+      -d | --datadir)
+          DATADIR="$2"
+          shift 2
       -h | --help)
           display_help
           # no shifting needed here, we're done.
@@ -69,24 +73,26 @@ if [ -z "$Cancer_Type" ]
   exit 1
 fi
 
+# If we do not have a grep pattern then we set it to Cancer Type
 if [ -z "$Grep_Pattern"]
   then
     Grep_Pattern="$Cancer_Type"
 fi
 
-DATADIR="data"
+if [ -z "$DATADIR"]
+  then
+    DATADIR="data"
+fi
 
 if [ -z "$HERV_INPUT_DB"]
   then
-    HERV_INPUT_DB="${DATADIR}/herv/herv_ref_135.fasta"
+    HERV_INPUT_DB="${DATADIR}/herv/Hsap38.geve.nt_v1.fa"
 fi
+HERV_OUTPUT_DB="${DATADIR}/herv/retro_virus_db"
+
 
 Species_Type="Homo sapiens"
 
-
-#HERV_INPUT_DB="${DATADIR}/herv/herv_ref_135.fasta"
-HERV_INPUT_DB="/home/ubuntu/users/kishore/gEVE/Hsap38.geve.nt_v1.fa"
-HERV_OUTPUT_DB="${DATADIR}/herv/retro_virus_db"
 
 # Create DIRECTORY for Cancer Type
 mkdir -p "${DATADIR}/${Cancer_Type}"
