@@ -21,7 +21,7 @@ Retrocancer workflow is shown below:
 
 
 
-![Logo](workflow.png)
+![Logo](workflow_retrocancer.jpg)
 
 
 #How to use Retrocancer ?
