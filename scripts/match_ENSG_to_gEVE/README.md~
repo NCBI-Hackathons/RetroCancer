@@ -1,0 +1,7 @@
+# Matching gEVE to Ensembl IDs
+
+Our main approach is to directly align RNA-seq data to endogenous
+retroviral sequences. However, we also wanted to look into the
+possibility of assessing EVE expression from existing processed count
+data using a transcriptome of Ensembl IDs, such as that available from
+TCGA. 
