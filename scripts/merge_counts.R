@@ -4,11 +4,11 @@ library(tools)
 
 #setwd("/home/ubuntu/users/fred/RetroCancer/data/melanoma/results/counts")
 #setwd("/home/ubuntu/users/sameer/RetroCancer/data/AML/results/counts")
-setwd("/home/ubuntu/users/fred/RetroCancer/data/successful_nml_Skin/counts")
-filenames <- Sys.glob("*.counts.txt")
-filesep="\t"
-id_col = "V1"
-count_col = "V2"
+#setwd("/home/ubuntu/users/fred/RetroCancer/data/successful_nml_Skin/counts")
+#filenames <- Sys.glob("*.counts.txt")
+#filesep="\t"
+#id_col = "V1"
+#count_col = "V2"
 
 #setwd("/home/ubuntu/users/laitanawe/RetroCancer/data/counts/aml")
 #setwd("/home/ubuntu/users/laitanawe/RetroCancer/data/counts/successful_nml_blood")
