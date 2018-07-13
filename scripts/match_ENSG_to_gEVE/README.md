@@ -52,4 +52,8 @@ BED files for the two annotation files.
 
 ## Overlap of BED files
 
+The script run_bedtools_intersect.sh determines the overlap of EVE and Ensembl gene loci.
 
+## Best match
+
+The script analysis.R determines the best match for each EVE and gene.
