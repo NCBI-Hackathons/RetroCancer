@@ -11,7 +11,7 @@ Most of HERVs are nonfunctional due to the acquisition of deactivating mutations
 
 # Why is HERV expression important ?
 
-While HERVs are commonly silent, activation of their expression has been described in many cancers. While causative relation between HERV and tumorigenesis is still unclear [reference3,reference4](https://www.ncbi.nlm.nih.gov/m/pubmed/24511094/, https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/retroviruses), an intriguing strategy suggests the use of HERV antigens as potential targets for immunotherapy.
+While HERVs are commonly silent, activation of their expression has been described in many cancers. While causative relation between HERV and tumorigenesis is still unclear [reference3](https://www.ncbi.nlm.nih.gov/m/pubmed/24511094/)[reference4] (https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/retroviruses), an intriguing strategy suggests the use of HERV antigens as potential targets for immunotherapy.
 
 # Why use RetroCancer ?
 
