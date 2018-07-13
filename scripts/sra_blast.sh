@@ -1,18 +1,98 @@
 #/bin/bash
 
-set -x # for debuging
+display_help () {
 
-# FIXME: MAKE cancer type dynamic
-Cancer_Type="AML"
+cat << EOF
+Usage: ./scripts/sra_blast.sh -c cancertype [OPTIONS] [FILE]...
+Takes a cancer Type and blasts against a reference HERV database
+
+Mandatory arguments to long options are mandatory for short options too.
+
+  -c, --cancertype  type of cancer to look for in SRA (Mandatory arg)
+  -g, --greppattern pattern to grep for after metadata is downloaded
+		    (default is to grep for cancer type)
+  -d, --datadir     Data directory to read from
+  -f, --hervdb      Fasta file to use for HERV database
+  -h, --help        give this help
+  -v, --verbose     verbose mode
+
+Report bugs to <Olaitan Awe>.
+EOF
+
+}
+
+while :
+do
+    case "$1" in
+      -c | --cancertype)
+          Cancer_Type="$2"
+          shift 2
+          ;;
+      -g | --greppattern)
+          Grep_Pattern="$2"
+          shift 2
+          ;;
+      -f | --hervdb)
+          HERV_INPUT_DB="$2"
+          shift 2
+          ;;
+      -d | --datadir)
+          DATADIR="$2"
+          shift 2
+      -h | --help)
+          display_help
+          # no shifting needed here, we're done.
+          exit 0
+          ;;
+      -v | --verbose)
+          verbose="verbose"
+          shift
+          ;;
+      --) # End of all options
+          shift
+          break
+          ;;
+      -*)
+          echo "Error: Unknown option: $1" >&2
+          exit 1
+          ;;
+      *)  # No more options
+          break
+          ;;
+    esac
+done
+
+if [ -n "$verbose" ]
+  then
+    set -x
+fi
+
+if [ -z "$Cancer_Type" ]
+  then
+    echo "No cancer type supplied"
+  exit 1
+fi
+
+# If we do not have a grep pattern then we set it to Cancer Type
+if [ -z "$Grep_Pattern"]
+  then
+    Grep_Pattern="$Cancer_Type"
+fi
+
+if [ -z "$DATADIR"]
+  then
+    DATADIR="data"
+fi
+
+if [ -z "$HERV_INPUT_DB"]
+  then
+    HERV_INPUT_DB="${DATADIR}/herv/Hsap38.geve.nt_v1.fa"
+fi
+HERV_OUTPUT_DB="${DATADIR}/herv/retro_virus_db"
+
+
 Species_Type="Homo sapiens"
 
-NUM_JOBS=50 # Number of total jobs to run
-NUM_PARALLEL_JOBS=4 # Number of jobs to run in parallel
-
-DATADIR="data"
-
-HERV_INPUT_DB="${DATADIR}/herv/herv_ref_135.fasta"
-HERV_OUTPUT_DB="${DATADIR}/herv/retro_virus_db"
 
 # Create DIRECTORY for Cancer Type
 mkdir -p "${DATADIR}/${Cancer_Type}"
@@ -45,7 +125,7 @@ esearch -db sra -query "${Query_String}"  | efetch -format runinfo  > "${EFETCH_
 cat "${EFETCH_FILE}" | grep -v '^$' \
        | grep -v '^Run' \
        | grep -iv "cell line" \
-       | grep -i "${Cancer_Type}" \
+       | grep -i "${Grep_Pattern}" \
        | awk -F',' '{print $1}' > "${RUN_ID_FILE}"
 
 
@@ -55,14 +135,11 @@ run_ids_array=(`cat "${RUN_ID_FILE}"`)
 # Create a parallel command file
 echo -n "" > "${PARALLEL_CMD_FILE}"
 
-# Output a magic blast command to the parallel command file
-# We have one command for each Run ID
+# We have one command for each Run ID and we run them sequentially
 for run_id in "${run_ids_array[@]}"
 do
    echo "$run_id"
-   echo "magicblast -sra ${run_id}  -db ${HERV_OUTPUT_DB} -no_discordant -num_threads 4 -no_unaligned -out ${RESULTS_DIR}/${run_id}_res.sam" >> "${PARALLEL_CMD_FILE}"
+   magicblast -sra "${run_id}"  -db "${HERV_OUTPUT_DB}" -no_discordant \
+           -num_threads 4 -no_unaligned -out "${RESULTS_DIR}/${run_id}_res.sam" 
 done
 
-# Read the first NUM_JOBS from the command file and run them in parallel 
-# making sure that only NUM_PARALLEL_JOBS are run at a given time
-head -"${NUM_JOBS}" "${PARALLEL_CMD_FILE}" | parallel -j "${NUM_PARALLEL_JOBS}"
