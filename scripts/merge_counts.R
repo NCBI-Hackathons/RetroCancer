@@ -3,7 +3,8 @@ library(tools)
 id_col = "V1"
 count_col = "V2"
 
-setwd("../data/AML/results/counts")
+#setwd("/home/ubuntu/users/fred/RetroCancer/data/melanoma/results/counts")
+setwd("/home/ubuntu/users/sameer/RetroCancer/data/AML/results/counts")
 filenames <- Sys.glob("*.counts.txt")
 
 
@@ -31,7 +32,8 @@ count_data_modified <- lapply(names(filename_data), function(z) {
   filename_data[[z]]
 })
 
-all_count_data <- Reduce(function(x, y) merge(x, y, by=id_col), count_data_modified)
+all_count_data <- Reduce(function(x, y) merge(x, y, by=id_col, all=TRUE), 
+			 count_data_modified)
 
 write.table(all_count_data, file="all_count_data.tsv",
 	    row.names=FALSE, quote=FALSE, sep="\t")
