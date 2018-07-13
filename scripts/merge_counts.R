@@ -1,17 +1,17 @@
 library(tools)
 
-
-
 id_col = "V1"
 count_col = "V2"
 
-
-setwd("~/RetroCancer/final_data/aml")
+setwd("../data/AML/results/counts")
 filenames <- Sys.glob("*.counts.txt")
 
+
 PrettifyFilename <- function(x) {
+  ret <- basename(x)
   # Keep only the part of the string before the period
   ret <- strsplit(x, split=".", fixed=TRUE)[[1]][[1]]
+  # If there is an underscore keep only the first part
   ret <- strsplit(x, split="_")[[1]][[1]]
   return(ret)
 }
@@ -33,7 +33,7 @@ count_data_modified <- lapply(names(filename_data), function(z) {
 
 all_count_data <- Reduce(function(x, y) merge(x, y, by=id_col), count_data_modified)
 
-write.table(all_count_data, file="/tmp/all_count_data.txt",
+write.table(all_count_data, file="all_count_data.tsv",
 	    row.names=FALSE, quote=FALSE, sep="\t")
 
 
