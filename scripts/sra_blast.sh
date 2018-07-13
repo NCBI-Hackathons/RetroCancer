@@ -9,10 +9,13 @@ Takes a cancer Type and blasts against a reference HERV database
 Mandatory arguments to long options are mandatory for short options too.
 
   -c, --cancertype  type of cancer to look for in SRA (Mandatory arg)
+  -g, --greppattern pattern to grep for after metadata is downloaded
+		    (default is to grep for cancer type)
+  -f, --hervdb      Fasta file to use for HERV database
   -h, --help        give this help
   -v, --verbose     verbose mode
 
-Report bugs to <olaitan>.
+Report bugs to <Olaitan Awe>.
 EOF
 
 }
@@ -22,6 +25,14 @@ do
     case "$1" in
       -c | --cancertype)
           Cancer_Type="$2"
+          shift 2
+          ;;
+      -g | --greppattern)
+          Grep_Pattern="$2"
+          shift 2
+          ;;
+      -f | --hervdb)
+          HERV_INPUT_DB="$2"
           shift 2
           ;;
       -h | --help)
@@ -58,11 +69,23 @@ if [ -z "$Cancer_Type" ]
   exit 1
 fi
 
-Species_Type="Homo sapiens"
+if [ -z "$Grep_Pattern"]
+  then
+    Grep_Pattern="$Cancer_Type"
+fi
 
 DATADIR="data"
 
-HERV_INPUT_DB="${DATADIR}/herv/herv_ref_135.fasta"
+if [ -z "$HERV_INPUT_DB"]
+  then
+    HERV_INPUT_DB="${DATADIR}/herv/herv_ref_135.fasta"
+fi
+
+Species_Type="Homo sapiens"
+
+
+#HERV_INPUT_DB="${DATADIR}/herv/herv_ref_135.fasta"
+HERV_INPUT_DB="/home/ubuntu/users/kishore/gEVE/Hsap38.geve.nt_v1.fa"
 HERV_OUTPUT_DB="${DATADIR}/herv/retro_virus_db"
 
 # Create DIRECTORY for Cancer Type
@@ -96,7 +119,7 @@ esearch -db sra -query "${Query_String}"  | efetch -format runinfo  > "${EFETCH_
 cat "${EFETCH_FILE}" | grep -v '^$' \
        | grep -v '^Run' \
        | grep -iv "cell line" \
-       | grep -i "${Cancer_Type}" \
+       | grep -i "${Grep_Pattern}" \
        | awk -F',' '{print $1}' > "${RUN_ID_FILE}"
 
 
